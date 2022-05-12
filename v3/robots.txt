@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /free_renderosity/
+Disallow: /reportage/
+Disallow: /v3.0/
+Disallow: /wip_in_memory/
+Disallow: /reportage/
+Disallow: /free_renderosity/
+Disallow: /xpression-se/
+Disallow: /st-maurice/

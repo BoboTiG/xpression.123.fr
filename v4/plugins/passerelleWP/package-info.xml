@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+
+	<id>Tiger-222:passerelleWP</id>
+	<name>[T-2] passerelleWP</name>
+	<version>1.0</version>
+
+	<type>modification</type>
+
+	<install for="1.1.5">
+		<readme type="file" parsebbc="true">infos-install.txt</readme>
+		<modification>plugin.xml</modification>
+	</install>
+
+	<uninstall for="1.1.5">
+		<readme type="file" parsebbc="true">infos-suppr.txt</readme>
+		<modification reverse="true">plugin.xml</modification>
+	</uninstall>
+</package-info>

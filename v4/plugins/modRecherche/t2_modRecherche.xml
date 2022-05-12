@@ -1,0 +1,33 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+
+	<!--
+		PLugin de recherche pour Mozilla Firefox
+		Tiger-222, le 16 juillet 2008
+	-->
+
+	<!-- Un nom court pour le moteur de recherche -->
+	<ShortName>_nom_forum_</ShortName>
+	
+	<!-- Une brève description du moteur de recherche -->
+	<Description>Faire une recherche sur _nom_forum_</Description>
+	
+	<!-- L'encodage à utiliser pour les données envoyées au moteur de recherche -->
+	<InputEncoding>UTF-8</InputEncoding>
+	
+	<!-- Une icône 16×16 représentant le moteur de recherche -->
+	<Image height="16" width="16" type="image/x-icon">_url_forum_Themes/default/images/t2_favicon.ico</Image>
+	
+	<!-- Décrit l'URL ou les URL à utiliser pour la recherche -->
+	<Url type="text/html" method="POST" template="_url_forum_index.php?action=search2">
+		<!-- Les paramètres devant être transmis avec la requête de recherche, par paires clés/valeur -->
+		<Param name="search" value="{searchTerms}"/>
+		<Param name="advanced" value="0"/>
+	</Url>
+	
+	<!-- URL à laquelle demander des suggestions de recherche
+	<Url type="application/x-suggestions+json" template="adresse"/> -->
+	
+	<!--  -->
+	<moz:SearchForm>_url_forum_index.php?action=search</moz:SearchForm>
+	
+</OpenSearchDescription>

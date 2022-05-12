@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+<CREATION3D>
+
+
+
+// elements
+
+
+// fond
+
+<bg_color>ffffff</bg_color> // couleur de fond
+
+<fond_trans>1</fond_trans> // fond transparent : 0 - oui 1 - non
+
+<bg_image>0</bg_image> // image de fond de la galerie , 0 si vous ne voulez pas d'image
+
+<bt_zoom>1</bt_zoom> // bouton zoom visible : 0 - non 1 - oui
+
+
+
+
+
+// style
+
+
+<sh_menu>1</sh_menu> // menu 1:oui 0:non sans menu la galerie affiche le 1er repertoire
+
+<an_menu>1</an_menu> // animation lors de l'apparition des menus 1:oui 0:non
+
+<pos_menu>2</pos_menu> // position du menu 0:menu flottant 1:gauche 2:milieu 3:droite - si le menu contient plus de 5 items il devient obligatoirement flottant
+
+<style_menu>1</style_menu> // style du menu : 1 ou 2
+
+<style_fen>1</style_fen> // style des cadres des images agrandies : 0 - sans 1 - arrondi ou 2 - carre
+
+<deg_fen>1</deg_fen> // degrades sur les cadres des images agrandies : 0 - sans 1 - avec
+
+<dp_speed0>2</dp_speed0> // temps d'apparition de la grande image en transparence de 1 à l'infini
+<dp_speed1>2</dp_speed1> // temps d'apparition des contours de la grande image de 1 à l'infini
+<dp_speed2>2</dp_speed2> // temps de disparition de la grande image en zoom de 1 à l'infini
+<dp_speed3>2</dp_speed3> // temps de disparition des contours de la grande image de 1 à l'infini
+
+<style_thumb>1</style_thumb> // style des cadres des miniatures : 0 - sans 1 - arrondi ou 2 - carre
+
+<deg_thumb>1</deg_thumb> // degrades sur cadres des miniatures : 0 - sans 1 - avec
+
+<an_thumb>0</an_thumb> // animation lors de l'apparition des miniatures 1:oui 0:non
+
+<highlight_trans>100</highlight_trans> // opacité du dégradé qui apparait sous l'image agrandie, 0:transparent 100:opaque 
+
+
+// prechargements
+
+<style_char>3</style_char> // style du prechargement : 1 - barre simple ou 2 - barre et anneaux ou 3 - montre
+
+<pc1_color>ff0000</pc1_color> // couleur du cercle 1 de prechargement style 2
+<pc2_color>0000ff</pc2_color> // couleur du cercle 2 de prechargement style 2
+<pc3_color>00ff00</pc3_color> // couleur du cercle 3 de prechargement style 2
+
+<pc4_color>CC0000</pc4_color> // couleur du cercle  de prechargement style 3
+<pc5_color>FF0000</pc5_color> // couleur des contours de prechargement style 3
+
+<pc6_color>bbbbbb</pc6_color> // couleur de la barre de prechargement des images
+<pc7_color>777777</pc7_color> // couleur du contour de la barre de prechargement des images
+
+// couleurs
+
+<bt_color>eeeeee</bt_color> // couleur de l'interieur des boutons suivants et precedents
+<btctr_color>bbbbbb</btctr_color> // couleur du contour des boutons suivants et precedents
+<btref_color>ffffff</btref_color> // couleur du reflet des boutons suivants et precedents
+
+
+<cd_color>ffffff</cd_color> // couleur des cadres des images agrandies
+<ctr_color>bbbbbb</ctr_color> // couleur du contour des cadres des images agrandies
+<tb_color>ffffff</tb_color> // couleur des cadres des miniatures
+<tbctr_color>bbbbbb</tbctr_color> // couleur du contour des cadres des miniatures
+
+<mn_color>CC3333</mn_color> // couleur du cadre des items du menu (disponible uniquement sur le style 2)
+<mnov_color>ff6666</mnov_color> // couleur du cadre des items du menu pour l'item selectionne (disponible uniquement sur le style 2)
+<tm_color>333333</tm_color> // couleur du texte des items du menu
+
+<fond_logo>ffffff</fond_logo> // couleur du fond du logo creation 3d
+<coul_logo>000000</coul_logo> // couleur du texte du logo creation 3d, si les couleurs fond et texte sont trop semblables, le logo reprendra des couleurs différentes
+
+<fond_zoom>ffffff</fond_zoom> // couleur du fond du bouton agrandir-enregistrer
+<coul_zoom>000000</coul_zoom> // couleur de l'illustraion du bouton agrandir-enregistrer
+
+// copyright
+
+<cpr>0</cpr> // copyright 1:oui 0:non
+<cpr_texte><![CDATA[©2004-2006 Tiger-222]]></cpr_texte> //texte du copyright - utilisez des espaces pour caler le texte comem vous le voulez
+<cpr_color>ffaaaa</cpr_color> // couleur du texte du copyright
+<cpr_trans>70</cpr_trans> // opacité du texte du copyright, 0:transparent 100:opaque
+
+// bandeau deroulant
+
+<sh_bandeau>1</sh_bandeau> // bandeau 1:oui 0:non
+<texte_bandeau><![CDATA[Programmes utilisés: Photoshop, Gimp, Mojoworld, Terragen, Manga Studio, DAZ Studio, Vue d'Esprit. Toutes les images présentent sur ce site sont protégées par les droits d'auteurs. Aucune copie n'est autorisée. Bonne Visite...]]></texte_bandeau> // contenu du bandeau
+
+<bandtt_color>FFCCCC</bandtt_color> // couleur du texte du bandeau
+<band_color>440000</band_color> // couleur du fond du bandeau
+<bandctr_color>ffbbbb</bandctr_color> // couleur du contour du bandeau
+<band_speed>2</band_speed> // vitesse de defilement du texte du bandeau
+
+// commentaires
+
+<style_comm>0</style_comm> // affichage des commentaires 0:toujours 1:en roll over de l'image agrandie
+
+<pos_comm>2</pos_comm> // position des commentaires 0:flottants 1:gauche 2:milieu 3:droite
+
+<comm_color>ffffff</comm_color> // couleur du cadre des commentaires
+<comm_txt_color>000000</comm_txt_color> // couleur du texte des commentaires
+<comm_ctr_color>bbbbbb</comm_ctr_color> // couleur des contours du cadre des commentaires
+<comm_trans>90</comm_trans> // opacité du cadre des commentaires, 0:transparent 100:opaque
+
+<c_monimage02><![CDATA[blabla et bl]]></c_monimage02>
+<c_monimage03><![CDATA[blabla et blalbla  et blalbla et blalbla et blalbla<br> et blalbla et blalbla]]></c_monimage03>
+
+</CREATION3D>

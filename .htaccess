@@ -1,0 +1,27 @@
+# Tiger-222
+# MAJ le 25 septembre 2010
+# A placer à la racine du site.
+
+################################################################
+# Empêcher de visualiser les fichiers .htaccess et .htpasswd :
+<FilesMatch "^\.ht">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Désactiver la signature du serveur :
+ServerSignature Off
+
+#ErrorDocument 400 http://xpression.123.fr/erreur.php
+#ErrorDocument 401 http://xpression.123.fr/erreur.php
+#ErrorDocument 402 http://xpression.123.fr/erreur.php
+#ErrorDocument 403 http://xpression.123.fr/erreur.php
+#ErrorDocument 404 http://xpression.123.fr/erreur.php
+#ErrorDocument 405 http://xpression.123.fr/erreur.php
+#ErrorDocument 500 http://xpression.123.fr/erreur.php
+#ErrorDocument 501 http://xpression.123.fr/erreur.php
+#ErrorDocument 502 http://xpression.123.fr/erreur.php
+#ErrorDocument 503 http://xpression.123.fr/erreur.php
+#ErrorDocument 504 http://xpression.123.fr/erreur.php
+#ErrorDocument 505 http://xpression.123.fr/erreur.php
+################################################################

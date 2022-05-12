@@ -1,0 +1,12 @@
+
+[center][size=14pt][b]Moduke pour _nom_forum_ - Moteur de recherche[/b][/size][/center]
+
+[hr]
+
+[b][color=red]Cette opération va supprimer le module.[/color][/b]
+
+[u]Opérations éffectuées[/u] :
+		. suppression de code dans la page Themes/default/index.template.php
+
+[b]Note[/b] : Il faudra supprimer manuellement ce fichier :
+		. Sources/t2_modRecherche.xml

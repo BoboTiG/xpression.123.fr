@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>Tiger-222:passerelleWP</id>
+	<version>1.0</version>
+
+	<!-- Ajout des variables WordPress dans Settings.php -->
+	<file name="$boarddir/Settings.php">
+		<operation>
+			<search position="after"><![CDATA[$db_prefix = 'smf_';]]></search>
+			<add><![CDATA[$db_wp = 'wordpress';
+$db_prefix_wp = 'wp_';
+]]></add>
+		</operation>
+	</file>
+
+	<!-- Ajout du code principale dans Subs-Members.php -->
+	<file name="$sourcedir/Subs-Members.php">
+		<operation>
+			<search position="before"><![CDATA[updateStats('member', $memberID, $realName);]]></search>
+			<add><![CDATA[
+
+	// ####################################################
+	// ### Module PasserelleWP
+	global $db_prefix_wp, $db_wp; // variables relatives à WordPress
+
+	// variables pour la table users
+	$wp1 = $regOptions['username'];				// user_login, user_nicename et display_name
+	$wp2 = md5($regOptions['password']);			// user_pass
+	$wp3 = $regOptions['email']; 					// user_email
+	$wp5 = date('Y-m-d H:i:s',  time());				// user_registered
+	$wp6 = '0'; 								// user_status
+
+	// variables pour la table usermeta
+	// $wp7[] => meta_key
+	$wp7[0] = 'nickname';
+	$wp7[1] = 'rich_editing';
+	$wp7[2] = 'admin_color';
+	$wp7[3] = 'wp_capabilities';
+	$wp7[4] = 'wp_user_level';
+
+	// $wp8[] => meta_value
+	$wp8[0] = $wp1;
+	$wp8[1] = 'true';
+	$wp8[2] = 'fresh';
+	$wp8[3] = 'a:1:{s:10:"subscriber";b:1;}'; // Simple abonné
+	$wp8[4] = '1';
+
+	// insertion dans la table users
+	$ajout = mysql_query("
+		INSERT INTO `{$db_wp}`.`{$db_prefix_wp}users`
+		(user_login, user_pass, user_nicename, user_email, user_registered, user_status, display_name)
+		VALUES('$wp1', '$wp2', '$wp1', '$wp3', '$wp5', '$wp6', '$wp1')
+	");
+
+	// insertion dans la table usermeta
+	$dernier = mysql_query("
+		SELECT `{$db_wp}`.`{$db_prefix_wp}users`.ID
+		FROM `{$db_wp}`.`{$db_prefix_wp}users`
+		ORDER BY `{$db_wp}`.`{$db_prefix_wp}users`.ID DESC");
+	$savoir = mysql_fetch_array($dernier);
+	$wp9 = $savoir['ID']; // dernier enregistrement
+
+	for ($wp10 = '0'; $wp10 < '5'; ++$wp10)
+	{
+		$ajoutSup = mysql_query("
+			INSERT INTO `{$db_wp}`.`{$db_prefix_wp}usermeta`
+			(user_id, meta_key, meta_value)
+			VALUES('$wp9', '$wp7[$wp10]', '$wp8[$wp10]')
+		");
+	}
+
+	// optimisons les tables
+	$optimiz = mysql_query("OPTIMIZE TABLE `{$db_wp}`.`{$db_prefix_wp}usermeta`");
+	$optimiz = mysql_query("OPTIMIZE TABLE `{$db_wp}`.`{$db_prefix_wp}users`");
+	// ####################################################
+]]></add>
+		</operation>
+	</file>
+</modification>

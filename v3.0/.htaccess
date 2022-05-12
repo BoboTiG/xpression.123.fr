@@ -1,0 +1,19 @@
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+<Files *.inc>
+Order allow,deny
+Deny from all
+Satisfy All
+</Files>
+<Files *.dtb>
+Order allow,deny
+Deny from all
+Satisfy All
+</Files>
+ErrorDocument 400 /error.php?err=400
+ErrorDocument 401 /error.php?err=401
+ErrorDocument 403 /error.php?err=403
+ErrorDocument 404 /error.php?err=404
+ErrorDocument 500 /error.php?err=500

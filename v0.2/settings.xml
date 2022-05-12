@@ -1,0 +1,12 @@
+<settings>
+	<bordercolor>00000</bordercolor>
+	<textcolor>FFFFFF</textcolor>
+	<navtextcolor>FFFFFF</navtextcolor>
+	<navbgcolor>000066</navbgcolor>
+	<navgradcolor>660066</navgradcolor>
+	<thumbbordercolor>000000</thumbbordercolor>
+	<thumbbgcolor>000000</thumbbgcolor>
+	<mainbgcolor>FFFFFF</mainbgcolor>
+	<popups>false</popups>
+	<splash>splash.jpg</splash>
+</settings>

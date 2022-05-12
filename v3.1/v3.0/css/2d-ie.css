@@ -1,0 +1,46 @@
+body
+	   {
+	   background-color: #68606E;
+}
+
+img {
+		border: none;
+	}
+	
+#galerie img
+	   {
+	   position: absolute;
+	   top: 0px;
+	   left: -5px;
+	   }
+	   
+#ressource img
+	   {
+	   position: absolute;
+	   top: -1px;
+	   left: -6px;
+	   }
+	   
+#cv img
+	   {
+	   position: absolute;
+	   top: -6px;
+	   left: -7px;
+	   }
+	   
+#lien img
+	   {
+	   position: absolute;
+	   top: -5px;
+	   left: -2px;
+	   }
+	   
+.tableau
+	   {
+	   display: inline;
+	   position: absolute;
+	   top: 181px;
+	   left: 398px;
+	   width: 392px;
+	   height: 300px;
+}

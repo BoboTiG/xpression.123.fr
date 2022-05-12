@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <!-- racine du site -->
+   <url>
+      <loc>http://xpression.123.fr/</loc>
+      <lastmod>2008-05-26</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+   </url>
+
+   <!-- page d'erreur -->
+   <url>
+      <loc>http://xpression.123.fr/erreur.php</loc>
+      <lastmod>2008-12-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+   </url>
+   
+
+   <!-- sitemap -->
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=sitemap</loc>
+      <lastmod>2008-12-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1</priority>
+   </url>
+   
+   <!-- liens internes -->
+   <url>
+      <loc>http://xpression.123.fr/index.php</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=galeries</loc>
+      <changefreq>daily</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=2d</loc>
+      <changefreq>daily</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=3d</loc>
+      <changefreq>daily</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=web_design</loc>
+      <changefreq>daily</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=ressources</loc>
+      <changefreq>daily</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=liens</loc>
+      <changefreq>daily</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=script_xaralx</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=tons_manga</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=plugins_smf</loc>
+      <changefreq>daily</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=infos_modules_smf</loc>
+      <changefreq>daily</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=maintenance</loc>
+      <changefreq>daily</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=scite</loc>
+      <changefreq>daily</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=utc</loc>
+      <changefreq>daily</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=md5sum_web</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>http://xpression.123.fr/v4/index.php?menu=a_propos</loc>
+      <changefreq>yearly</changefreq>
+   </url>
+   
+   <!-- fichier servant au flux RSS -->
+   <url>
+      <loc>http://xpression.123.fr/v4/rss.xml</loc>
+      <changefreq>daily</changefreq>
+   </url>
+
+</urlset> 

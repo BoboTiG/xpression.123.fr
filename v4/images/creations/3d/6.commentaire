@@ -1,0 +1,5 @@
+<strong>Découverte III</strong>
+
+Test d'animation.
+
+<em>Logiciel utilisé</em> : <a href="http://www.planetside.co.uk/" title="Site officiel de Terragen" style="color:maroon;" onclick="window.open(this.href);return(false);">Terragen</a>.

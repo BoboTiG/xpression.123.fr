@@ -1,0 +1,17 @@
+
+[center][size=14pt][b]Module pour _nom_forum_ - Envoi d'images[/b][/size][/center]
+
+[hr]
+
+[b][color=red]Cette opération va supprimer le module.[/color][/b]
+
+[u]Opérations éffectuées[/u] :
+		. suppression de code dans la page Themes/default/Post.template.php
+		. suppression de la table {préfix}t2_images.
+
+[b]Note[/b] : Il faudra supprimer manuellement ces fichiers :
+		. Sources/js.html
+		. Sources/t2_ajout.php
+		. Sources/t2_class_images.ph
+		. Sources/t2_formulaireImages.html
+		. Themes/default/images/t2_chargement.gif

@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>Compare tes deux résultats MD5SUM</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript">
+			function comparer(resultat1, resultat2, form) {
+				var resultat1 = form.original.value;
+				var resultat2 = form.mine.value;
+
+				if ((resultat1 == '') || (resultat2 == '')) {
+					alert ("Daigne au moins remplir les champs!");
+					}
+				else {
+					if (resultat1 == resultat2) {
+						alert ("Les résultats sont Ok.");
+						}
+					else {
+						alert ("Les résultats diffèrent, tente de télécharger à nouveau ton fichier.");
+						}
+					}
+				}
+		</script>
+		<style type="text/css">
+			html {
+				margin-left : auto;
+				margin-right : auto;
+				width : 800px;
+				background-color : #68606E;
+			}
+			body {
+				margin: 150px 50px;
+			}
+			form {
+				border : 1px dotted purple;
+				padding: 10px;
+				text-align : center;
+			}
+			input {
+				border : none;
+				border-left : 3px solid black;
+				border-right : 3px solid white;
+				padding-left : 10px;
+				background-color : white;
+			}
+			input:hover {
+				border-right : 3px solid black;
+			}
+		</style>
+	</head>
+
+	<body>
+		<p>
+			<h1 style="text-align : center;">MD5 Sum</h1>
+		</p>
+		<form action="#" method="post">
+			Original : <input type="text" name="original" size="60" />
+			<br />
+			<br />
+			Le tien &nbsp; : <input type="text" name="mine" size="60" />
+			<br />
+			<br />
+			<input type="submit" value="Compare-les !" onClick="comparer(original, mine, this.form);"/>
+		</form>
+		<p>
+			<h6 style="text-align : center;">Tiger-222 <sup>2008</sup> </h6>
+		</p>
+
+		<!-- pub obligatoire ... -->
+		<script type='text/javascrit' src='http://bannierefr.com:8088/123/hf/index_468x60.js'></script>
+	</body>
+</html>

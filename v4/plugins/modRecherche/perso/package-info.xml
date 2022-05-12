@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+
+	<id>Tiger-222:modRecherche</id>
+	<name>[T-2] modRecherche</name>
+	<version>1.0</version>
+
+	<type>modification</type>
+
+	<install for="all">
+		<readme type="file" parsebbc="true">infos-install.txt</readme>
+		<modification>plugin.xml</modification>
+		<require-file name="t2_favicon.ico" destination="$themedir/images" />
+		<require-file name="t2_modRecherche.xml" destination="$sourcedir" />
+	</install>
+
+	<uninstall for="all">
+		<readme type="file" parsebbc="true">infos-suppr.txt</readme>
+		<modification reverse="true">plugin.xml</modification>
+	</uninstall>
+</package-info>

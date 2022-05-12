@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /depot/
+Disallow: /free_renderosity/
+Disallow: /wip_in_memory/
+Sitemap: /sitemap.xml

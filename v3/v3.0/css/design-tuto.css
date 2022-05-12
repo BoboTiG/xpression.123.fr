@@ -1,0 +1,33 @@
+html {
+	background-color : #68606e;
+	font-family: Sylfaen;
+}
+
+body {
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	right: 10%;
+	background-color : black;
+	padding: 2%;
+	color: gray;
+	border : 1px dashed white;
+}
+
+h1,h2,h3,h4,h6,h5 {
+	text-align: center;
+	color: white;
+}
+
+img {
+	border: double gray;
+}
+
+div {
+	text-align: center;
+}
+
+a {
+	color: purple;
+}
+

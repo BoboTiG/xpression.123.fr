@@ -1,0 +1,16 @@
+
+[center][size=14pt][b]Module pour _nom_forum_ - Moteur de recherche[/b][/size][/center]
+
+[hr]
+
+***********************
+[url=http://xpression.123.fr][i]Tiger-222[/i][/url] - 18 Juillet 2008
+***********************
+
+[b][color=green]Cette opération va installer le module.[/color][/b]
+
+[u]Opérations éffectuées[/u] :
+	1) insertion de code dans la page Themes/default/index.template.php
+	2) ajout du fichier t2_modRecherche.xml dans le dossier Sources.
+
+[b]Note[/b] : [u]La désinstallation n'est pas entièrement automatisée[/u]. Il y aura un fichier à supprimer manuellement.

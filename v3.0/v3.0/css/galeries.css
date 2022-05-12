@@ -1,0 +1,67 @@
+body
+{
+	background-color: #68606E;
+}
+.nom_menu img
+{
+	border: none;
+	position: absolute;
+	top: 122px;
+	left: 578px;
+}
+p img
+{
+	border: none;
+	position: absolute;
+	top: 2px;
+	left: 100px
+}
+#ressource a
+{
+	border: none;
+	position: absolute;
+	top: 318px;
+	left: 232px;
+	width:133px;
+	height: 34px;
+}
+#cv a
+{
+	border: none;
+	position: absolute;
+	top: 373px;
+	left: 275px;
+	width:38px;
+	height: 36px;
+}
+#lien a
+{
+	border: none;
+	position: absolute;
+	top: 438px;
+	left: 260px;
+	width:65px;
+	height: 36px;
+}
+
+.aff_2d img
+{
+	border: none;
+	position: absolute;
+	top: 213px;
+	left: 432px;
+}
+.aff_3d img
+{
+	border: none;
+	position: absolute;
+	top: 302px;
+	left: 432px;
+}
+.aff_compo img
+{
+	border: none;
+	position: absolute;
+	top: 393px;
+	left: 432px;
+}

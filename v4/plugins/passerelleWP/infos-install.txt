@@ -1,0 +1,19 @@
+﻿
+[center][size=14pt][b]Plugin pour SubPoserForum - Passerelle WordPress[/b][/size][/center]
+
+[hr]
+
+********************
+[url=http://xpression.123.fr][i]Tiger-222[/i][/url] - 25 Juillet 2008
+révision : 11 Septembre 2008
+********************
+
+[b]Ce plugin a été écrit pour les versions 1.1.5 et supérieures de SMF.[/b]
+
+Il permet d'enregistrer automatiquement sur WordPress un membre nouvellement enregistré sur SMF.
+
+[u]Opérations éffectuées[/u] :
+	. insertion de code dans la page Settings.php
+	. insertion de code dans la page Sources/Subs-Members.php
+
+/!\ Pour modifier le texte du courriel il faudra modifier le fichier /Themes/default/Login.xxx.php /!\

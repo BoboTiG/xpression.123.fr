@@ -1,0 +1,141 @@
+.scroll {
+	scrollbar-3dlight-color: #EDF0FC;
+	scrollbar-arrow-color: black;
+	scrollbar-base-color: #EDF0FC;
+	scrollbar-darkshadow-color: #EDF0FC;
+	scrollbar-face-color: #EDF0FC;
+	scrollbar-highlight-color: #EDF0FC;
+	scrollbar-shadow-color:#EDF0FC;
+	scrollbar-track-color: #EDF0FC;
+}
+
+a.page { 
+
+   color: Black; 
+   padding: 3px; 
+   border: 1px solid #A4A4A4; 
+   background-color: #EAECFF; 
+   text-decoration: none; 
+} 
+
+a.page:hover { 
+   background-color: #F4F6FF; 
+}
+
+td {
+	font-family: Verdana;
+	font-size:12px;
+	color: Black;
+}
+
+.Titre1 {
+	border:1px solid #A4A4A4;
+	height: 25px;
+	color: #8094FF;
+	background: #F9F9F9;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Verdana;
+	padding-left: 10px;
+}
+
+.Error {
+	border:1px solid Red;
+	height: 25px;
+	color: Red;
+	background: #FFD4D4;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Verdana;
+	padding-left: 10px;
+}
+
+textarea {
+	width: 500px;
+	height: 200px;
+	font-family: Verdana;
+}
+
+a {
+	font-family: Verdana;
+	font-size:12px;
+	color: Black;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: Verdana;
+	font-size:12px;
+	color: #8094FF;
+	text-decoration: none;
+}
+
+a.msg {
+	font-family: Verdana;
+	font-size: 12px;
+	color: Green;
+	text-decoration: none
+}
+
+a:hover.msg {
+	font-family: Verdana;
+	font-size: 12px;
+	color: Black;
+	text-decoration: none;
+}
+
+input {
+	font-family: Verdana;
+	font-size: 11px;
+}
+
+select {
+	height: 17px;
+	font-size: 11px;
+}
+
+a.titre {
+	color: #8094FF;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+a.titre:hover {
+	color: Black;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Verdana;	
+}
+
+.copyright {
+	font-size: 10px;
+	color: black;
+}
+
+a.copyright {
+	font-size: 10px;
+	color: gray;	
+}
+a:hover.copyright {
+	font-size: 10px;
+	color: black;	
+}
+
+a.options {
+	color: Black;
+	padding: 3px;
+	border-bottom: 2px solid white;
+	background: #DBDCFF;
+}
+
+a.options:hover {
+	padding: 3px;
+	color: Black;
+	border-bottom: 2px solid #575757;	
+}
+
+img {
+	vertical-align: middle;
+	border: 0px;
+}

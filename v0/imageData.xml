@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SIMPLEVIEWER_DATA maxImageDimension="922" textColor="0xFFFFFF" frameColor="0xffffff" bgColor="0x000000" frameWidth="0.5" stagePadding="20" thumbnailColumns="2" thumbnailRows="4" navPosition="left" navDirection="LTR" title="  ... XPress'n Me ..." imagePath="" thumbPath="">
+
+<IMAGE>
+	<NAME>image1.jpg</NAME>
+	<CAPTION>"Smartiz VS Carnivor"</CAPTION>
+</IMAGE>
+<IMAGE>
+	<NAME>image2.jpg</NAME>
+	<CAPTION>"Féminin Sacré"</CAPTION>
+</IMAGE>
+<IMAGE>
+	<NAME>image3.jpg</NAME>
+	<CAPTION>"Noémie"</CAPTION>
+</IMAGE>
+<IMAGE>
+	<NAME>image4.jpg</NAME>
+	<CAPTION>"Le Manoir"</CAPTION>
+</IMAGE>
+<IMAGE>
+	<NAME>image5.jpg</NAME>
+	<CAPTION>"The Respond"</CAPTION>
+</IMAGE>
+<IMAGE>
+	<NAME>image6.jpg</NAME>
+	<CAPTION></CAPTION>
+</IMAGE><IMAGE>
+	<NAME>image7.jpg</NAME>
+	<CAPTION></CAPTION>
+</IMAGE>
+<IMAGE>
+	<NAME>image8.jpg</NAME>
+	<CAPTION></CAPTION>
+</IMAGE>
+
+
+</SIMPLEVIEWER_DATA>

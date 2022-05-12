@@ -1,0 +1,37 @@
+
+[center][size=14pt][b]Plugin pour _nom_forum_ - Envoi d'images[/b][/size][/center]
+
+[hr]
+
+********************
+[url=http://xpression.123.fr][i]Tiger-222[/i][/url] - 18 Juin 2008
+révision : 25 Juillet 2008
+********************
+
+[b][color=green]Ce plugin a été écrit pour la version 1.1.5 de SMF.[/color][/b]
+
+[u]Opérations éffectuées[/u] :
+	1) insertion de code dans la page Themes/default/Post.template.php
+
+	2) ajout de l'image t2_chargement.gif (image de chargement) dans Themes/default/images.
+
+	3) ajout des fichiers suivants dans le dossier Sources :
+		. js.html (message d'information au cas où JavaScript est désactivé)
+		. t2_class_images.php (classe PHP pour la manipulation des images)
+		. t2_formulaireImages.html. (formulaire d'envoi)
+		. t2_ajout.php (opérations à effectuée lors de l'envoi)
+
+	4) création de la table {préfix}t2_images.
+	5) et ajout de ces champs :
+		. id (n° de l'image)
+		. pseudo (pseudo de l'utilisateur)
+		. nom (nom de l'image)
+		. miniature (nom de la miniature)
+		. url (lien du sujet contenant l'image)
+		. date (date d'envoi de l'image)
+		. type (type d'image)
+		. poids (poids de l'image)
+		. largeur (largeur de l'image)
+		. hauteur (hauteur de l'image)
+
+[b]Note[/b] : [u]La désinstallation n'est pas entièrement automatisée[/u]. Il y aura quelques fichiers à supprimer manuellement.

@@ -1,0 +1,10 @@
+﻿
+[center][size=14pt][b]Module pour SubPoserForum - Passerelle WordPress[/b][/size][/center]
+
+[hr]
+
+[b][color=red]Cette opération va [b]supprimer[/b] le module.[/color][/b]
+
+[u]Opérations éffectuées[/u] :
+		. suppression de code dans Settings.php
+		. suppression de code dans la page Sources/Subs-Members.php

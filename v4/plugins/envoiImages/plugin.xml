@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>Tiger-222:envoiImages</id>
+	<version>1.0</version>
+
+	<!--
+		Ajout d'un morceau de code dans le fichier Post.template.php.
+		Il s'agit d'insérer le code appelant directement le formulaire.
+	-->
+
+	<!-- Thème par défaut -->
+	<file name="$themedir/Post.template.php">
+		<operation>
+			<search position="after"><![CDATA[// If the admin has enabled the hiding of the additional options - show a link and image for it.]]></search>
+			<add><![CDATA[
+					# Insertion du formulaire pour l'envoi des images - _nom_forum_ :
+					echo
+						'<tr>
+							<td></td>
+							<td>
+								<iframe style="border:none; overflow:hidden; width:640px; height:170px;" src="Sources/t2_formulaireImages.php"></iframe>
+							</td>
+						</tr>';]]>
+			</add>
+		</operation>
+	</file>
+</modification>

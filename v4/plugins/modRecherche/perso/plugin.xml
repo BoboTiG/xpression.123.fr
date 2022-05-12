@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>Tiger-222:modRecherche</id>
+	<version>1.0</version>
+
+	<!--
+		Ajout d'un morceau de code dans le fichier index.template.php.
+	-->
+
+	<!-- Thème par défaut -->
+	<file name="Themes/default/index.template.php">
+		<operation>
+			<search position="after"><![CDATA[<meta name="keywords" content="PHP, MySQL, bulletin, board, free, open, source, smf, simple, machines, forum" />]]></search>
+			<add><![CDATA[<link rel="search" type="application/opensearchdescription+xml" title="_nom_forum_" href="_url_forum_Sources/t2_modRecherche.xml">]]></add>
+		</operation>
+	</file>
+
+	<!-- Thème défini par l'utilisateur -->
+	<file name="_url_theme_index.template.php">
+		<operation error="ignore">
+			<search position="after"><![CDATA[<meta name="keywords" content="PHP, MySQL, bulletin, board, free, open, source, smf, simple, machines, forum" />]]></search>
+			<add><![CDATA[<link rel="search" type="application/opensearchdescription+xml" title="_nom_forum_" href="_url_forum_Sources/t2_modRecherche.xml">]]></add>
+		</operation>
+	</file>
+</modification>

@@ -1,0 +1,22 @@
+<div class="ressources">
+	<p class="p_titre">Comparateur de sommes MD5</p>
+	</p>
+	<form action="index.php?menu=md5sum_web" method="post">
+		<table style="margin-left:auto; margin-right:auto;">
+			<tr>
+				<td style="text-align:right;">Original : </td>
+				<td><input type="text" name="original" size="45" /></td>
+			</tr>
+			<tr>
+				<td style="text-align:right;">Le tien : </td>
+				<td><input type="text" name="mine" size="45" /></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align:center;">
+					<br />
+					<input type="submit" value="Comparer !" style="text-align:center;" onClick="comparer(original, mine, this.form);"/>
+				</td>
+			</tr>
+		</table>		
+	</form>
+</div>

@@ -1,0 +1,50 @@
+body {
+	background-color: #68606E;
+	font-family: Sylfaen;
+}
+
+img {
+	border: none;
+}
+	
+#galerie img {
+	position: absolute;
+	top: 0px;
+	left: -5px;
+}
+
+#ressource img {
+	position: absolute;
+	top: -1px;
+	left: -6px;
+}
+
+#cv img {
+	position: absolute;
+	top: -6px;
+	left: -7px;
+}
+
+#lien img {
+	position: absolute;
+	top: -5px;
+	left: -2px;
+}
+
+#tableau {
+	display: inline;
+	border:  none;
+	position: absolute;
+	top: 207px;
+	left: 405px;
+	width: 378px;
+	height: 250px;
+	overflow: auto;
+	color: #FFFFFF;
+	font-size: 0.8em;
+}
+
+tr a {
+	text-decoration: none;
+	color: #68606E;
+}

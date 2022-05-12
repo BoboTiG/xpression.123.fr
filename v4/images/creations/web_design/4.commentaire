@@ -1,0 +1,6 @@
+<strong>Interface <acronym title="Session Initiation Protocol">SIP</acronym></strong>
+
+Interface Web développée en collaboration avec BoboTraX pour la gestion des comptes d'un serveur téléphonique de <acronym title="Voix sur réseau IP">VOIP</acronym>.
+
+<em>Langages utilisés</em> : <acronym title="Hypertext Preprocessor">PHP</acronym>, <acronym title="Extensible HyperText Markup Language">XHTML</acronym>, <acronym title="Cascading Style Sheets">CSS</acronym>, <acronym title="JavaScript">JS</acronym> (<acronym title="Asynchronous JavaScript and XML">AJAX</acronym>) et MySQL.
+<em>Logiciel utilisé</em> : <a href="http://geany.uvena.de/" title="Site officiel de Geany" style="color:maroon;" onclick="window.open(this.href);return(false);">Geany</a>.

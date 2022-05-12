@@ -1,0 +1,403 @@
+/*
+---------------------------------------------------------
+	par Tiger-222 - 26 Août 2006
+	révisée le 15 Octobre 2008
+---------------------------------------------------------
+*/
+
+/* Mise en page #################################################### */
+html
+{
+	background-color : #68606E;
+	font-size : 11px;
+	/*font-family : Baltang, Sylfaen, "DejaVu Sans", Arial;*/
+}
+
+body
+{
+	margin-left : auto;
+	margin-right : auto;
+	width : 1024px;
+}
+
+#haut
+{
+	width : 1024px;
+	height : 239px;
+	background-image : url("../images/v4/png/Haut.png");
+	background-repeat : no-repeat;
+}
+
+#menu
+{
+	position : absolute;
+	margin-left : 180px;
+	width : 159px;
+	height : 245px;
+}
+
+#menu img
+{
+	border : none;
+	margin-bottom : -3px;
+}
+
+#milieu
+{
+	width : 1024px;
+	min-height : 250px;
+	margin-top : -11px;
+	background-image : url("../images/v4/png/Milieu.png");
+}
+
+#milieu p:first-letter
+{
+	font-weight : bold;
+	font-size : 20px;
+}
+
+#milieu .contenu
+{
+	width : 515px;
+	margin-left : 375px;
+}
+
+#bas
+{
+	width : 1024px;
+	height : 151px;
+	margin-top : -13px;
+	background-image : url("../images/v4/png/Bas.png");
+	background-repeat : no-repeat;
+}
+
+#bas .flux
+{
+	position : relative;
+	top : 55px;
+	margin-left : 720px;
+	color : orange;
+}
+
+#bas .flux a
+{	
+	text-decoration : none;
+	color : orange;
+}
+
+#bas .flux a:hover
+{
+	border-bottom : 2px solid yellow;
+}
+
+#pointe
+{
+	position : relative;
+	top : -216px;
+	margin-left : 914px;
+	width : 20px;
+	height : 54px;
+}
+
+#titre
+{
+	position : absolute;
+	top : 126px;
+	margin-left : 279px;
+	width : 249px;
+	height : 63px;
+}
+
+#accueil
+{
+	position : absolute;
+	top : 138px;
+	margin-left : 133px;
+	border : none;
+}
+
+#a_propos
+{
+	position : relative;
+	top : -167px;
+	margin-left : 490px;
+	font-size : 10px;
+	color : grey;
+	text-decoration : none;
+}
+
+#a_propos:hover:after
+{
+	content : " :::...";
+}
+
+/* Liens ########################################################### */
+#milieu .contenu .liens a
+{
+	color : #000060;
+	text-decoration : none;
+}
+
+#milieu .contenu .liens a:hover
+{
+	font-weight : bold;
+}
+
+#milieu .contenu .liens a:hover:before
+{
+	color : red;
+	content : "* ";
+}
+
+#milieu .contenu .liens a:hover:after
+{
+	color : red;
+	content : " *";
+}
+
+/* Sitemap ######################################################### */
+#milieu .contenu .sitemap a
+{
+	text-decoration : none;
+	color : #333;
+}
+
+#milieu .contenu .sitemap a:hover
+{
+	text-decoration : underline;
+}
+
+#milieu .contenu .sitemap .menu
+{
+	font-weight : bold;
+}
+
+#milieu .contenu .sitemap ul
+{
+	list-style-type : square;
+	color : #999;
+}
+
+/* Ressources ############################################### */
+#milieu .contenu .ressources a
+{
+	text-decoration : none;
+	color : #5b77c6;
+}
+
+#milieu .contenu .ressources a:hover
+{
+	text-decoration : underline;
+}
+
+#milieu .contenu .ressources img
+{
+	border : none;
+}
+
+#milieu .contenu .ressources .dispo
+{
+	color : blue;
+}
+
+#milieu .contenu .ressources hr
+{
+	border : none;
+	border-top : 2px dotted maroon;
+	margin-top : 20px;
+	margin-bottom : 20px;
+	width : 50%;
+}
+
+#milieu .contenu .ressources .image
+{
+	display : block; 
+	margin-left : auto; 
+	margin-right : auto; 
+	border : 1px solid black;
+	padding : 1px;
+	background-color : white;
+}
+
+#milieu .contenu .ressources .infos
+{
+	border : 1px solid #566268; 
+	background-color : #b9d5e3; 
+	padding : 10px;
+}
+
+#milieu .contenu .ressources blockquote
+{
+	background-color : white;
+	border-left : 2px solid purple; 
+	border-right : 2px solid purple; 
+	border-top : 1px solid purple; 
+	border-bottom : 1px solid purple; 
+	padding : 5px;
+}
+
+#milieu .contenu .ressources .telecharger:hover
+{
+	border-bottom : 2px dotted orange;
+}
+
+#milieu .contenu .ressources .p_titre
+{
+	text-align : center; 
+	border-bottom : 2px dashed #000060; 
+	padding-bottom : 20px;
+}
+
+#milieu .contenu .ressources .p_telechargement
+{
+	text-align : center; 
+	border-top : 2px dashed #000060; 
+	padding-top : 20px; 
+	margin-top : 20px;
+}
+
+/* Galeries ######################################################## */
+#milieu .contenu .galeries img
+{
+	border : none;
+}
+
+#milieu .contenu .galeries .p_titre
+{
+	text-align : center; 
+	border-bottom : 2px dashed #000060; 
+	padding-bottom : 20px;
+}
+
+#milieu .contenu .galeries hr
+{
+	border : none;
+	border-top : 2px dotted maroon;
+	margin-top : 20px;
+	margin-bottom : 20px;
+	width : 50%;
+}
+
+#milieu .contenu .galeries .image
+{
+	margin-left : 59px;
+}
+
+#milieu .contenu .galeries .Image
+{
+	margin-left : 75px;
+}
+
+#milieu .contenu .galeries .Image img
+{
+	border-color : black;
+}
+
+#milieu .contenu .galeries .Image img:hover
+{
+	background-color : white;
+}
+	
+#milieu .contenu .galeries img
+{
+	border : 1px solid #5b77c6;
+	border-bottom : 2px solid #5b77c6;
+	padding : 2px;
+	-moz-border-radius-topleft : 5px;
+	-moz-border-radius-bottomright : 5px;
+}
+
+#milieu .contenu .galeries .image img:hover
+{
+	border-color : black;
+	border-style : solid;
+	border-bottom-width : 2px;
+	-moz-border-radius : 0px;
+	-moz-border-radius-topright : 5px;
+	-moz-border-radius-bottomleft : 5px;
+}
+
+#milieu .contenu .galeries .commentaire
+{
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+	width : 400px;
+	border-left : 2px solid grey;
+	border-right : 2px solid grey;
+	border-top : 1px solid grey;
+	border-bottom : 1px solid grey;
+	padding : 10px;
+	background-color : #eee;
+}
+
+#milieu .contenu .galeries .menu
+{
+	position : absolute;
+	margin-top : 20px;
+	margin-left : 190px;
+	display:block;
+	width : 150px;
+	height : 30px;
+	padding-top : 10px;
+	text-align : center;
+	font-weight : bold;
+	font-size : 10px;
+}
+
+#deuxD
+{
+	background-image : url("../images/v4/png/bulle_2d.png");
+	background-repeat : no-repeat;
+}
+
+#troisD
+{
+	background-image : url("../images/v4/png/bulle_3d.png");
+	background-repeat : no-repeat;
+}
+
+#web_design
+{
+	background-image : url("../images/v4/png/bulle_web_design.png");
+	background-repeat : no-repeat;
+}
+
+/* À propos ######################################################## */
+#milieu .contenu .a_propos img
+{
+	background-color : white;
+	border : 1px solid black;
+	border-bottom : 2px solid black;
+	padding : 2px;
+	-moz-border-radius : 5px;
+}
+
+#milieu .contenu .a_propos .image
+{
+	margin-left : 59px;
+}
+
+#milieu .contenu .a_propos img:hover
+{
+	background-color : #e1e1e1;
+	border-color : #000060;
+}
+
+#milieu .contenu .a_propos .p_titre
+{
+	text-align : center; 
+	border-bottom : 2px dashed #000060; 
+	padding-bottom : 20px;
+}
+
+#milieu .contenu .a_propos a
+{
+	text-decoration : none;
+	color : #5b77c6;
+}
+
+#milieu .contenu .a_propos a:hover
+{
+	text-decoration : underline;
+}

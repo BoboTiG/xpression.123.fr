@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+
+	<id>Tiger-222:envoiImages</id>
+	<name>[T-2] envoiImages</name>
+	<version>1.0</version>
+
+	<type>modification</type>
+
+	<install for="1.1.5">
+		<readme type="file" parsebbc="true">infos-install.txt</readme>
+		<modification>plugin.xml</modification>
+		<require-file name="t2_chargement.gif" destination="$themedir/images" />
+		<require-file name="t2_ajout.php" destination="$sourcedir" />
+		<require-file name="t2_class_image.php" destination="$sourcedir" />
+		<require-file name="t2_formulaireImages.php" destination="$sourcedir" />
+		<require-file name="js.html" destination="$sourcedir" />
+		<code>ajout_mysql.php</code>
+	</install>
+
+	<uninstall for="1.1.5">
+		<readme type="file" parsebbc="true">infos-suppr.txt</readme>
+		<modification reverse="true">plugin.xml</modification>
+		<code>suppr_mysql.php</code>
+	</uninstall>
+</package-info>

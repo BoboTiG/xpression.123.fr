@@ -1,0 +1,19 @@
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+<Files *.inc>
+Order allow,deny
+Deny from all
+Satisfy All
+</Files>
+<Files *.dtb>
+Order allow,deny
+Deny from all
+Satisfy All
+</Files>
+ErrorDocument 400 /missing.html
+ErrorDocument 401 /missing.html
+ErrorDocument 403 /missing.html
+ErrorDocument 404 /missing.html
+ErrorDocument 500 /missing.html

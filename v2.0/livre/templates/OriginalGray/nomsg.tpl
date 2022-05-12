@@ -1,0 +1,1 @@
+<div class="titlebody" style="border-bottom:1px solid #989898">[!nomsg!]</div>

@@ -1,0 +1,6 @@
+<strong>Centralisation des mémos</strong>
+
+Interface créée en collaboration avec BoboTraX pour la mise en ligne de nos <a href="http://bobotrax.dyn-o-saur.com/memos/" onclick="window.open(this.href);return(false);">mémos</a>.
+
+<em>Langages utilisés</em> : <acronym title="Hypertext Preprocessor">PHP</acronym> et <acronym title="JavaScript">JS</acronym>.
+<em>Logiciel utilisé</em> : <a href="http://geany.uvena.de/" title="Site officiel de Geany" style="color:maroon;" onclick="window.open(this.href);return(false);">Geany</a>.

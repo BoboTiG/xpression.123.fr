@@ -1,0 +1,7 @@
+<strong>Thème Framakey</strong>
+
+Création d'un thème pour la <a href="http://www.Framakey.org/" alt="Framakey" title="Site officiel de la Framakey" style="color:maroon;" onclick="window.open(this.href);return(false);">Framakey</a>.
+<a href="depot/source_trashy.rar" title="Télécharger les sources, 2.74Mo">[sources]</a>
+
+<em>Langages utilisés</em>: <acronym title="Extensible HyperText Markup Language">XHTML</acronym>, <acronym title="Cascading Style Sheets">CSS</acronym> et <acronym title="JavaScript">JS</acronym>.
+<em>Logiciels utilisés</em> : <a href="http://www.gimp.org/" title="Site officiel de Gimp" style="color:maroon;" onclick="window.open(this.href);return(false);">Gimp</a> et <a href="http://www.scintilla.org/" title="Site officiel de SciTE" style="color:maroon;" onclick="window.open(this.href);return(false);">SciTE</a>.

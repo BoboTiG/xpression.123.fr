@@ -1,0 +1,78 @@
+/*******************************************************************\
++------------------------------------------------------------------+
+|								   
+|	Script Php créer par Kra<K pour Php-Book. Création 2005.   
+|	Ce script peut être redistribué par n'importe qui et/ou	   
+|	modifié. Merci de toujours laissez cette marque de copy-   
+|	right.							   
+|		Créateur: Kra<K					   
+|		Date: 20/02/2006				   
+|		Version: 3.2				   
+|		Contact: ctoonline@free.fr			   
+|		Site officiel: http://ctoonline.free.fr		   
+|								   
++------------------------------------------------------------------+
+/******************************************************************/
+
+#
+# INSTALLATION V3.2
+#
+
+Pour installez  Php-Book V3.2, chargez tout le contenu du fichier sur votre FTP et lancez le fichier
+install.php dans votre navigateur.
+
+#
+# UPGRADE V3.1 => V3.2
+#
+
+Chargez les fichiers du .zip sur votre FTP en écrasant les anciens.
+
+#
+# UPGRADE V2.1 => V3.2
+#
+
+Chargez tous les nouveaux fichiers en écrasant les anciens sur votre ftp.
+Lancez le fichier upgrade2.1-3.2.php et cliquez sur suivant. 
+	# NOTE: N'oubliez pas de supprimer ce fichier à la fin.
+
+#
+# UPDATES
+#
+
+3.2:
+	- Mode édtion ajouté
+	- Mode suppression/édition ajouté dans l'interface d'administration
+
+3.1:
+	- Correction d'un bug à l'installation
+
+3.0:
+	- Nouveau thème
+	- Changement de module de templates
+	- Changement entre note/titre
+	- Corrections de bug (largeurs...)
+	- Nouveau système de gestion (demande de plus de temps)
+	- Suppression des scrollbars horizontales
+	- Supression du dossier admin personalisé
+
+2.1:
+	- Ajout des scrollbars horizontales
+	
+2.0:
+	- Réglage des problèmes d'accès d'administration
+	- Correction des bugs d'administration
+	- Possibilité de modidier ses codes d'accès.
+	
+1.5: 
+	- Vérfication des caractères spéciaux
+	- Résolution d'un problème majeur de connection
+	- Résolution de mémoire pour le formulaire
+	- Allègement du code
+	
+1.0
+###
+
+Pour toute réclamation ou autre: ctoonline@free.fr
+
+Tout droit réservé 2005
+http://ctoonline.free.fr

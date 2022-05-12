@@ -1,0 +1,128 @@
+body {
+	background-color: #68606E;
+	font-family: Sylfaen;
+}
+
+p img {
+	border: none;
+	position: absolute;
+	top: 2px;
+	left: 100px
+}
+
+#galerie a {
+	border: none;
+	position: absolute;
+	top: 253px;
+	left: 242px;
+	width:105px;
+	height: 38px;
+}
+
+#tableau {
+	display: inline;
+	border:  none;
+	position: absolute;
+	top: 207px;
+	left: 405px;
+	width: 378px;
+	height: 250px;
+	overflow: auto;
+	color: #FFFFFF;
+	font-size: 0.8em;
+}
+
+tr a {
+	text-decoration: none;
+	color: #68606E;
+}
+
+#ressource a {
+	border: none;
+	position: absolute;
+	top: 318px;
+	left: 232px;
+	width:133px;
+	height: 34px;
+}
+
+#cv a {
+	border: none;
+	position: absolute;
+	top: 373px;
+	left: 275px;
+	width:38px;
+	height: 36px;
+}
+
+#lien a {
+	border: none;
+	position: absolute;
+	top: 438px;
+	left: 260px;
+	width:65px;
+	height: 36px;
+}
+
+.date {
+	vertical-align: top;
+}
+
+.nom_cv img {
+	border: none;
+	position: absolute;
+	top: 120px;
+	left: 577px;
+}
+
+.nom_gal img {
+	border: none;
+	position: absolute;
+	top: 122px;
+	left: 578px;
+}
+
+.nom_res img {
+	border: none;
+	position: absolute;
+	top: 120px;
+	left: 577px;
+}
+
+.nom_lien img {
+	border: none;
+	position: absolute;
+	top: 120px;
+	left: 580px;
+}
+
+.aff_2d img {
+	border: none;
+	position: absolute;
+	top: 213px;
+	left: 432px;
+}
+
+.aff_3d img {
+	border: none;
+	position: absolute;
+	top: 302px;
+	left: 432px;
+}
+
+.aff_compo img {
+	border: none;
+	position: absolute;
+	top: 393px;
+	left: 432px;
+}
+
+
+.souligne {
+	text-decoration: underline;
+	color: #FFFFFF;
+   }
+
+.gras {
+	font-weight: bold;
+   }

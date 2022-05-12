@@ -1,0 +1,13 @@
+
+[center][size=14pt][b]Module pour _nom_forum_ - Moteur de recherche[/b][/size][/center]
+
+[hr]
+
+***********************
+[url=http://xpression.123.fr][i]Tiger-222[/i][/url] - 18 Juillet 2008
+***********************
+
+[b][color=green]Cette opération va installer le module.[/color][/b]
+
+[color=green][u]Opérations éffectuées[/u] :[/color]
+		. suppression de code dans la page .php

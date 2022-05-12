@@ -1,0 +1,6 @@
+<strong>Site officiel du projet pdf-cli</strong>
+
+Site multilingue développé pour faire connaître un programme en cours de développement. <a href="http://pdf-cli.sourceforge.net" alt="pdf-cli" title="Site officiel du projet pdf-cli" onclick="window.open(this.href);return(false);">Le site</a>
+
+<em>Langages utilisés</em> : <acronym title="Hypertext Preprocessor">PHP</acronym>, <acronym title="Extensible HyperText Markup Language">XHTML</acronym> et <acronym title="Cascading Style Sheets">CSS</acronym>.
+<em>Logiciel utilisé</em> : <a href="http://www.scintilla.org/" title="Site officiel de SciTE" style="color:maroon;" onclick="window.open(this.href);return(false);">SciTE</a>.
